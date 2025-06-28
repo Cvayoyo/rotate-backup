@@ -353,10 +353,13 @@ for region in "${REGIONS[@]}"; do
   "mode": "tcp_and_udp",
   "local_address": "0.0.0.0",
   "local_port": ${port},
-  "timeout": 600,
-  "udp_timeout": 120,
+  "timeout": 60,
+  "udp_timeout": 60,
   "fast_open": true,
-  "workers": 10
+  "workers": 10,
+  "reuse_port": true,
+  "no_delay": true,
+  "prefer_ipv6": false
 }
 EOT
 
@@ -373,4 +376,3 @@ echo -e "\n📌 Summary VPS A IP to Port Mapping:"
 printf "%s\n" "${RESULTS[@]}"
 
 echo -e "\n🎉 Semua instance telah dibuat dan ss-local dikonfigurasi!"
-
