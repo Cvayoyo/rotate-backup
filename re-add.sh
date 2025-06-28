@@ -43,8 +43,7 @@ for i in "${!ip_addresses[@]}"; do
     "fast_open": true,
     "workers": 10,
     "reuse_port": true,
-    "no_delay": true,
-    "prefer_ipv6": false
+    "no_delay": true
 }
 EOF
 
