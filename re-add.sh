@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of IP addresses
-declare -a ip_addresses=("143.244.156.9" "142.93.63.150" "162.243.174.170")
+declare -a ip_addresses=("64.23.187.171")
 
 
 # Base domain name and timestamp
@@ -38,10 +38,13 @@ for i in "${!ip_addresses[@]}"; do
     "mode": "tcp_and_udp",
     "local_address": "0.0.0.0",
     "local_port": ${current_port},
-    "timeout": 120,
-    "udp_timeout": 120,
+    "timeout": 60,
+    "udp_timeout": 60,
     "fast_open": true,
-    "workers": 10
+    "workers": 10,
+    "reuse_port": true,
+    "no_delay": true,
+    "prefer_ipv6": false
 }
 EOF
 
