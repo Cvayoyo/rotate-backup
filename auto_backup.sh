@@ -36,11 +36,15 @@ if [ ! -d ".git" ]; then
   git branch -M main
 fi
 
-# Tambahkan dan commit semua perubahan
+# Add and commit if needed
 git add .
 
-git commit -m "Auto backup: $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
+if ! git diff --cached --quiet; then
+  git commit -m "Auto backup: $(date '+%Y-%m-%d %H:%M:%S')"
 
-# Push ke GitHub
-git push origin main
-
+  # Pull dulu biar sinkron, lalu push
+  git pull --rebase origin main
+  git push origin main
+else
+  echo "✅ No changes to commit"
+fi
