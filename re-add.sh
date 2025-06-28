@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of IP addresses
-declare -a ip_addresses=("64.23.187.171")
+declare -a ip_addresses=("3.82.208.230")
 
 
 # Base domain name and timestamp
@@ -58,7 +58,7 @@ echo "====================="
 for i in "${!ip_addresses[@]}"; do
     server_num=$((i + 1))
     current_port=$((start_port + i))
-    echo "165.22.37.167:${current_port}"
+    echo "146.190.120.70:${current_port}"
 done
 echo "====================="
 echo -e "\nLogs available at /tmp/ss-local-*-${timestamp}.log"
