@@ -257,7 +257,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash -c '/usr/local/bin/ssserver -U -s \$(hostname -I | awk \"{print \\\$1}\"):8388 -k Pass -m aes-128-gcm --worker-threads 10 --tcp-fast-open -v'
+ExecStart=/bin/bash -c '/usr/local/bin/ssserver -U -s \$(hostname -I | awk \"{print \\\$1}\"):8388 -k Pass -m aes-128-gcm --worker-threads 10 --tcp-fast-open --reuse-port -v'
 Restart=always
 StandardOutput=file:/var/log/ssserver.log
 StandardError=file:/var/log/ssserver.log

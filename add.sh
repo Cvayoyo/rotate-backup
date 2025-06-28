@@ -40,10 +40,13 @@ while IFS= read -r ip; do
     "mode": "tcp_and_udp",
     "local_address": "0.0.0.0",
     "local_port": $PORT,
-    "timeout": 120,
-    "udp_timeout": 120,
+    "timeout": 60,
+    "udp_timeout": 60,
     "fast_open": true,
-    "workers": 10
+    "workers": 10,
+    "reuse_port": true,
+    "no_delay": true,
+    "prefer_ipv6": false
 }
 EOF
   echo "✅ Config $PORT dibuat untuk IP $ip"
@@ -71,4 +74,3 @@ for file in "$CONFIG_DIR"/*.json; do
 done
 
 echo -e "\n✅ $NEW_COUNT IP baru ditambahkan. Semua ss-local dijalankan ulang."
-

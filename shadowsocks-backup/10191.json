@@ -1,13 +1,16 @@
 {
-    "server": "100.24.61.91",
+    "server": "44.249.133.185",
     "server_port": 8388,
     "password": "Pass",
     "method": "aes-128-gcm",
     "mode": "tcp_and_udp",
     "local_address": "0.0.0.0",
     "local_port": 10191,
-    "timeout": 120,
-    "udp_timeout": 120,
+    "timeout": 60,
+    "udp_timeout": 60,
     "fast_open": true,
-    "workers": 10
+    "workers": 10,
+    "reuse_port": true,
+    "no_delay": true,
+    "prefer_ipv6": false
 }
