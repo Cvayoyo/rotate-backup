@@ -42,8 +42,7 @@ for i in "${!ip_addresses[@]}"; do
     "udp_timeout": 60,
     "fast_open": true,
     "workers": 10,
-    "reuse_port": true,
-    "no_delay": true
+    "reuse_port": true
 }
 EOF
 
