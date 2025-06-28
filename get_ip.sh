@@ -2,7 +2,7 @@
 
 ACCOUNTS_DIR="./accounts"
 profile_files=("$ACCOUNTS_DIR"/*.env)
-regions=("us-east-1" "us-west-2" "ap-southeast-2")
+regions=("us-east-1" "us-west-2")
 
 # Cek apakah AWS CLI tersedia
 if ! command -v aws &> /dev/null; then
