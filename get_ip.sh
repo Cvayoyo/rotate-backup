@@ -46,7 +46,7 @@ for pf in "${profile_files[@]}"; do
 
         while read -r iid pip state; do
             pip=${pip:-<no-ip>}
-            echo "🖥️  $iid | $pip | $state"
+            echo "$pip"
         done <<< "$result"
     done
 done
