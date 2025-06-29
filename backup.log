@@ -1938,3 +1938,42 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Cvayoyo/rotate-backup.git        
 To https://github.com/cvayoyo/rotate-backup.git
    ef1e36aa..8b77cf0c  main -> main
+[main c7542fce] Auto backup: 2025-06-29 19:00:01
+ 371 files changed, 664 insertions(+), 1183 deletions(-)
+ delete mode 100644 shadowsocks-backup/10336.json
+ delete mode 100644 shadowsocks-backup/10337.json
+ delete mode 100644 shadowsocks-backup/10338.json
+ delete mode 100644 shadowsocks-backup/10339.json
+ delete mode 100644 shadowsocks-backup/10340.json
+ delete mode 100644 shadowsocks-backup/10341.json
+ delete mode 100644 shadowsocks-backup/10342.json
+ delete mode 100644 shadowsocks-backup/10343.json
+ delete mode 100644 shadowsocks-backup/10344.json
+ delete mode 100644 shadowsocks-backup/10345.json
+ delete mode 100644 shadowsocks-backup/10346.json
+ delete mode 100644 shadowsocks-backup/10347.json
+ delete mode 100644 shadowsocks-backup/10348.json
+ delete mode 100644 shadowsocks-backup/10349.json
+ delete mode 100644 shadowsocks-backup/10350.json
+ delete mode 100644 shadowsocks-backup/10351.json
+ delete mode 100644 shadowsocks-backup/10352.json
+ delete mode 100644 shadowsocks-backup/10353.json
+ delete mode 100644 shadowsocks-backup/10354.json
+ delete mode 100644 shadowsocks-backup/10355.json
+ delete mode 100644 shadowsocks-backup/10356.json
+ delete mode 100644 shadowsocks-backup/10357.json
+ delete mode 100644 shadowsocks-backup/10358.json
+ delete mode 100644 shadowsocks-backup/10359.json
+ delete mode 100644 shadowsocks-backup/10360.json
+ delete mode 100644 shadowsocks-backup/10361.json
+ delete mode 100644 shadowsocks-backup/10362.json
+ delete mode 100644 shadowsocks-backup/10363.json
+ delete mode 100644 shadowsocks-backup/10364.json
+ delete mode 100644 shadowsocks-backup/10365.json
+ delete mode 100644 shadowsocks-backup/10366.json
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Cvayoyo/rotate-backup.git        
+To https://github.com/cvayoyo/rotate-backup.git
+   8b77cf0c..c7542fce  main -> main
