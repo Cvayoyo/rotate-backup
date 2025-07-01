@@ -3707,3 +3707,12 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Cvayoyo/rotate-backup.git        
 To https://github.com/cvayoyo/rotate-backup.git
    ac9a8527..e7990b2d  main -> main
+[main 3c516593] Auto backup: 2025-07-01 07:10:01
+ 2 files changed, 8 insertions(+), 3 deletions(-)
+ delete mode 100644 accounts/Marilyneejizmbpq_ario.env
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Cvayoyo/rotate-backup.git        
+To https://github.com/cvayoyo/rotate-backup.git
+   e7990b2d..3c516593  main -> main
