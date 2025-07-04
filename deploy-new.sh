@@ -12,8 +12,7 @@ fi
 
 source "$ENV_PATH"
 
-# REGIONS=("us-east-1" "us-west-2")
-REGIONS=("us-east-1" "us-east-2" "us-west-2")
+REGIONS=("us-east-1" "us-east-2" "us-west-2" "us-west-1")
 SECURITY_GROUP_NAME="allow-all-ss"
 
 for region in "${REGIONS[@]}"; do
@@ -118,11 +117,13 @@ source "$ENV_PATH"
 
 # === CONFIG ===
 # REGIONS=("us-east-1" "us-west-2")
-REGIONS=("us-east-1" "us-east-2" "us-west-2")
+REGIONS=("us-east-1" "us-east-2" "us-west-2" "us-west-1")
 declare -A AMI_MAP
 AMI_MAP["us-east-1"]=ami-020cba7c55df1f615
-AMI_MAP["us-west-2"]=ami-05f991c49d264708f
 AMI_MAP["us-east-2"]=ami-0d1b5a8c13042c939
+AMI_MAP["us-west-1"]=ami-014e30c8a36252ae5
+AMI_MAP["us-west-2"]=ami-05f991c49d264708f
+
 
 INSTANCE_TYPE="r7a.medium"
 SECURITY_GROUP_NAME="allow-all-ss"
