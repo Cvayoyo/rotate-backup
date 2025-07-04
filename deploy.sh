@@ -121,7 +121,7 @@ declare -A AMI_MAP
 AMI_MAP["us-east-1"]=ami-020cba7c55df1f615
 AMI_MAP["us-west-2"]=ami-05f991c49d264708f
 
-INSTANCE_TYPE="t2.micro"
+INSTANCE_TYPE="r7a.medium"
 SECURITY_GROUP_NAME="allow-all-ss"
 INSTANCE_PER_REGION=8
 BASE_DOMAIN="ayoyo-studentart.fun"
