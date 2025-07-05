@@ -1,9 +1,13 @@
 {
-  "server": "34.239.168.184",
-  "server_port": 8488,
+  "server": "54.221.128.136",
+  "server_port": 8388,
   "password": "Pass",
-  "method": "chacha20-ietf-poly1305",
+  "method": "aes-128-gcm",
   "mode": "tcp_and_udp",
   "local_address": "0.0.0.0",
-  "local_port": 20001
+  "local_port": 20001,
+  "timeout": 60,
+  "udp_timeout": 60,
+  "fast_open": true,
+  "workers": 10
 }
