@@ -1,13 +1,9 @@
 {
-  "server": "44.211.84.38",
+  "server": "34.239.168.184",
   "server_port": 8488,
   "password": "Pass",
-  "method": "AEAD_CHACHA20_POLY1305",
+  "method": "chacha20-ietf-poly1305",
   "mode": "tcp_and_udp",
   "local_address": "0.0.0.0",
-  "local_port": 20001,
-  "timeout": 60,
-  "udp_timeout": 60,
-  "fast_open": true,
-  "workers": 10
+  "local_port": 20001
 }
