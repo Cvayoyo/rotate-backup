@@ -10299,3 +10299,55 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Cvayoyo/rotate-backup.git        
 To https://github.com/cvayoyo/rotate-backup.git
    72c8ea4b..fb794607  main -> main
+[main 1035026b] Auto backup: 2025-07-06 18:50:01
+ 46 files changed, 8 insertions(+), 748 deletions(-)
+ delete mode 100644 shadowsocks-backup/10007.json
+ delete mode 100644 shadowsocks-backup/10009.json
+ delete mode 100644 shadowsocks-backup/10027.json
+ delete mode 100644 shadowsocks-backup/10031.json
+ delete mode 100644 shadowsocks-backup/10032.json
+ delete mode 100644 shadowsocks-backup/10034.json
+ delete mode 100644 shadowsocks-backup/10037.json
+ delete mode 100644 shadowsocks-backup/10038.json
+ delete mode 100644 shadowsocks-backup/10040.json
+ delete mode 100644 shadowsocks-backup/10043.json
+ delete mode 100644 shadowsocks-backup/10056.json
+ delete mode 100644 shadowsocks-backup/10060.json
+ delete mode 100644 shadowsocks-backup/10067.json
+ delete mode 100644 shadowsocks-backup/10071.json
+ delete mode 100644 shadowsocks-backup/10072.json
+ delete mode 100644 shadowsocks-backup/10079.json
+ delete mode 100644 shadowsocks-backup/10082.json
+ delete mode 100644 shadowsocks-backup/10101.json
+ delete mode 100644 shadowsocks-backup/10110.json
+ delete mode 100644 shadowsocks-backup/10124.json
+ delete mode 100644 shadowsocks-backup/10126.json
+ delete mode 100644 shadowsocks-backup/10138.json
+ delete mode 100644 shadowsocks-backup/10149.json
+ delete mode 100644 shadowsocks-backup/10172.json
+ delete mode 100644 shadowsocks-backup/10181.json
+ delete mode 100644 shadowsocks-backup/10183.json
+ delete mode 100644 shadowsocks-backup/10186.json
+ delete mode 100644 shadowsocks-backup/10187.json
+ delete mode 100644 shadowsocks-backup/10191.json
+ delete mode 100644 shadowsocks-backup/10194.json
+ delete mode 100644 shadowsocks-backup/10198.json
+ delete mode 100644 shadowsocks-backup/10199.json
+ delete mode 100644 shadowsocks-backup/10204.json
+ delete mode 100644 shadowsocks-backup/10221.json
+ delete mode 100644 shadowsocks-backup/10234.json
+ delete mode 100644 shadowsocks-backup/10243.json
+ delete mode 100644 shadowsocks-backup/10250.json
+ delete mode 100644 shadowsocks-backup/10265.json
+ delete mode 100644 shadowsocks-backup/10271.json
+ delete mode 100644 shadowsocks-backup/10273.json
+ delete mode 100644 shadowsocks-backup/10282.json
+ delete mode 100644 shadowsocks-backup/10306.json
+ delete mode 100644 shadowsocks-backup/10312.json
+ delete mode 100644 shadowsocks-backup/10326.json
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Cvayoyo/rotate-backup.git        
+To https://github.com/cvayoyo/rotate-backup.git
+   fb794607..1035026b  main -> main
