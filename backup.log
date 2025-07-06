@@ -10351,3 +10351,11 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Cvayoyo/rotate-backup.git        
 To https://github.com/cvayoyo/rotate-backup.git
    fb794607..1035026b  main -> main
+[main d00cc72a] Auto backup: 2025-07-06 19:00:01
+ 1 file changed, 52 insertions(+)
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Cvayoyo/rotate-backup.git        
+To https://github.com/cvayoyo/rotate-backup.git
+   1035026b..d00cc72a  main -> main
