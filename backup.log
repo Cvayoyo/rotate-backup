@@ -11401,3 +11401,17 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/Cvayoyo/rotate-backup.git        
 To https://github.com/cvayoyo/rotate-backup.git
    18ade33b..57ced482  main -> main
+[main 7f014d26] Auto backup: 2025-07-07 16:50:01
+ 9 files changed, 141 insertions(+), 50 deletions(-)
+ create mode 100644 accounts/a.env
+ create mode 100644 shadowsocks-backup/10423.json
+ create mode 100644 shadowsocks-backup/10424.json
+ create mode 100644 shadowsocks-backup/10425.json
+ create mode 100644 shadowsocks-backup/10426.json
+ create mode 100644 shadowsocks-backup/10427.json
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Cvayoyo/rotate-backup.git        
+To https://github.com/cvayoyo/rotate-backup.git
+   57ced482..7f014d26  main -> main
