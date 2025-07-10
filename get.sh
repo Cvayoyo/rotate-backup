@@ -24,7 +24,7 @@ for line in "${SS_LOCAL_LINES[@]}"; do
 
     if [[ -f "$config_file" ]]; then
         port=$(jq -r '.local_port' "$config_file")
-        ip_proxy=$(curl --socks5 "$VPS_A_IP:$port" -s --max-time 0.3 http://ifconfig.me)
+        ip_proxy=$(curl --socks5 "$VPS_A_IP:$port" -s --max-time 0.5 http://ifconfig.me)
 
         if [[ -n "$ip_proxy" ]]; then
             echo "✅ Aktif: studentart.cloud:$port -> $ip_proxy"
