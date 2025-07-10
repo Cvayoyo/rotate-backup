@@ -3,10 +3,10 @@
 # === CONFIG ===
 SOURCE_DIR="/home/rotate"
 BACKUP_REPO="/home/rotate"
-REPO_REMOTE="https://cvayoyo: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@github.com/cvayoyo/rotate-backup.git"
+REPO_REMOTE="https://cvayoyo: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@github.com/cvayoyo/rotate-backup.git"
 
-GIT_NAME="Rizqi Kamal"
-GIT_EMAIL="rizqi@example.com"
+GIT_NAME="Cvayoyo"
+GIT_EMAIL="akunqwiklabs.05@gmail.com"
 
 cd "$BACKUP_REPO"
 
