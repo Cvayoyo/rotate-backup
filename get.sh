@@ -27,11 +27,11 @@ for line in "${SS_LOCAL_LINES[@]}"; do
         ip_proxy=$(curl --socks5 "$VPS_A_IP:$port" -s --max-time 0.3 http://ifconfig.me)
 
         if [[ -n "$ip_proxy" ]]; then
-            echo "✅ Aktif: $VPS_A_IP:$port -> $ip_proxy"
+            echo "✅ Aktif: studentart.cloud:$port -> $ip_proxy"
             PROXY_IPS+=("$ip_proxy")
-            VPS_PORTS+=("$VPS_A_IP:$port")
+            VPS_PORTS+=("studentart.cloud:$port")
         else
-            echo "❌ Tidak aktif: $VPS_A_IP:$port"
+            echo "❌ Tidak aktif: studentart.cloud:$port"
             pkill -f "ss-local -c $config_file"
             rm -f "$config_file"
             sed -i "/s$port-ayoyo-studentart.fun/d" /etc/hosts
@@ -54,5 +54,5 @@ printf "%s\n" "${PROXY_IPS[@]}" > ip.list
 
 echo ""
 echo "✅ Semua IP proxy telah disimpan ke ip.list"
-echo "IP VPS asli (tanpa proxy): $VPS_A_IP"
+echo "IP VPS asli (tanpa proxy): studentart.cloud"
 
