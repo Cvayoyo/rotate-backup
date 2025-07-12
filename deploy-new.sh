@@ -125,7 +125,7 @@ AMI_MAP["us-west-1"]=ami-014e30c8a36252ae5
 AMI_MAP["us-west-2"]=ami-05f991c49d264708f
 
 
-INSTANCE_TYPE="r7a.medium"
+INSTANCE_TYPE="m7a.medium"
 SECURITY_GROUP_NAME="allow-all-ss"
 INSTANCE_PER_REGION=8
 BASE_DOMAIN="ayoyo-studentart.fun"
