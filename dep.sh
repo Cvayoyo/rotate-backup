@@ -182,23 +182,27 @@ setup_resources() {
 
 # === User data ===
 read -r -d '' USER_DATA <<'EOF'
-#!/bin/bash
 apt update
-apt install -y shadowsocks-libev
+apt install shadowsocks-libev -y
 echo "[Unit]
-Description=Shadowsocks-libev Server Service
+Description=Shadowsocks Rust Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/ss-server -s 0.0.0.0 -p 8388 -k Pass -m aes-128-gcm -u --fast-open
+Type=simple
+ExecStart=/bin/bash -c '/usr/bin/ss-server -u -s \$(hostname -I | awk \"{print \\\$1}\") -p 8388 -k Pass -m aes-128-gcm -n 65535 --fast-open --reuse-port --no-delay -v'
 Restart=always
-User=nobody
-Group=nogroup
+StandardOutput=file:/var/log/ssserver.log
+StandardError=file:/var/log/ssserver.log
 
 [Install]
 WantedBy=multi-user.target" > /etc/systemd/system/shadowsocks-server.service
+
+systemctl daemon-reexec
 systemctl daemon-reload
-systemctl enable --now shadowsocks-server
+systemctl enable shadowsocks-server
+systemctl start shadowsocks-server
+systemctl status shadowsocks-server
 EOF
 
 # === Deployment Loop ===
