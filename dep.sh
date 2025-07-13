@@ -301,7 +301,7 @@ EOT
 
     pkill -f "ss-local -c /etc/shadowsocks/${port}.json"
     nohup ss-local -c /etc/shadowsocks/${port}.json > /tmp/ss-local-${port}.log 2>&1 &
-    RESULTS+=("$VPS_A_IP:$port")
+    RESULTS+=("studentart.cloud:$port")
   done
   PORT_BASE=$((PORT_BASE + INSTANCE_PER_REGION))
 done
