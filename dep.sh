@@ -182,6 +182,7 @@ setup_resources() {
 
 # === User data ===
 read -r -d '' USER_DATA <<'EOF'
+#!/bin/bash
 apt update
 apt install shadowsocks-libev -y
 echo "[Unit]
