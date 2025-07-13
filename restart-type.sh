@@ -6,8 +6,8 @@ profile_files=(./accounts/*.env)
 regions=("us-east-1" "us-west-2")
 MAX_ATTEMPT=5
 
-OLD_INSTANCE_TYPE="t2.micro"
-NEW_INSTANCE_TYPE="r7a.medium"
+OLD_INSTANCE_TYPE="r7a.medium"
+NEW_INSTANCE_TYPE="t2.micro"
 
 check_account_limits() {
     local QUOTA_NAME_FILTER="Running On-Demand Standard"
