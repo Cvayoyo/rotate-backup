@@ -39,7 +39,7 @@ AMI_MAP["us-west-1"]="ami-014e30c8a36252ae5"
 AMI_MAP["us-west-2"]="ami-05f991c49d264708f"
 INSTANCE_TYPE="t2.micro"
 SECURITY_GROUP_NAME="allow-all-ss"
-INSTANCE_PER_REGION=1
+INSTANCE_PER_REGION=5
 BASE_DOMAIN="ayoyo-studentart.fun"
 VPS_A_IP=$(curl -s ifconfig.me)
 
