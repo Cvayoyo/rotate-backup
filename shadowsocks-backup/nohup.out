@@ -31,3 +31,11 @@
  2025-07-13 14:05:25 INFO: udprelay enabled
  2025-07-13 14:05:25 INFO: udp port reuse enabled
  2025-07-13 14:05:25 INFO: running from root user
+ 2025-07-13 14:14:41 INFO: using tcp fast open
+ 2025-07-13 14:14:41 INFO: enable TCP no-delay
+ 2025-07-13 14:14:41 INFO: initializing ciphers... aes-128-gcm
+ 2025-07-13 14:14:41 INFO: listening at 0.0.0.0:10550
+ 2025-07-13 14:14:41 INFO: tcp port reuse enabled
+ 2025-07-13 14:14:41 INFO: udprelay enabled
+ 2025-07-13 14:14:41 INFO: udp port reuse enabled
+ 2025-07-13 14:14:41 INFO: running from root user
