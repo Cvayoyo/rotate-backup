@@ -31,7 +31,7 @@ EOF
 sudo sysctl -p > /dev/null
 
 # === CONFIG ===
-REGIONS=("us-east-1" "us-west-2")
+REGIONS=("us-west-1")
 declare -A AMI_MAP
 AMI_MAP["us-east-1"]="ami-020cba7c55df1f615"
 AMI_MAP["us-east-2"]="ami-0d1b5a8c13042c939"
