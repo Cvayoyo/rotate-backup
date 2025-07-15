@@ -22,3 +22,5 @@
  2025-07-13 14:50:06 INFO: udprelay enabled
  2025-07-13 14:50:06 INFO: udp port reuse enabled
  2025-07-13 14:50:06 INFO: running from root user
+ 2025-07-15 06:02:55 ERROR: crypto: AEAD: repeat salt detected
+ 2025-07-15 06:02:55 ERROR: failed to handshake with 52.41.118.51: suspicious UDP packet
