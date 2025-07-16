@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of IP addresses
-declare -a ip_addresses=("35.231.175.197")
+declare -a ip_addresses=("35.231.175.197" "35.243.244.5" "34.23.107.219")
 
 
 # Base domain name and timestamp
@@ -31,7 +31,7 @@ for i in "${!ip_addresses[@]}"; do
     config_file="/etc/shadowsocks/${current_port}.json"
     sudo tee "$config_file" > /dev/null <<EOF
 {
-    "server": "${server_num}",
+    "server": "${ip_addresses[$i]}",
     "server_port": 8388,
     "password": "Pass",
     "method": "aes-128-gcm",
@@ -56,7 +56,7 @@ echo "====================="
 for i in "${!ip_addresses[@]}"; do
     server_num=$((i + 1))
     current_port=$((start_port + i))
-    echo "146.190.120.70:${current_port}"
+    echo "studentart.cloud:${current_port}"
 done
 echo "====================="
 echo -e "\nLogs available at /tmp/ss-local-*-${timestamp}.log"
