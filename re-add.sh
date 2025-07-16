@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Array of IP addresses
-declare -a ip_addresses=("34.48.15.186" "34.48.1.245")
+declare -a ip_addresses=("34.86.148.180" "34.145.201.163")
 
 # Base domain name and timestamp
 base_domain="ayoyo-studentart.fun"
