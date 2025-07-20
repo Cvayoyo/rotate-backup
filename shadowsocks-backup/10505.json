@@ -1,11 +1,11 @@
 {
-    "server": "34.60.176.106",
+    "server": "34.41.172.53",
     "server_port": 8388,
     "password": "Pass",
     "method": "aes-128-gcm",
     "mode": "tcp_and_udp",
     "local_address": "0.0.0.0",
-    "local_port": 10491,
+    "local_port": 10505,
     "timeout": 60,
     "udp_timeout": 60,
     "fast_open": true,
