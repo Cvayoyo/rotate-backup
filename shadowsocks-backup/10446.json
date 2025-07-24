@@ -1,5 +1,5 @@
 {
-    "server": "35.202.115.202",
+    "server": "162.222.182.188",
     "server_port": 8388,
     "password": "Pass",
     "method": "aes-128-gcm",
